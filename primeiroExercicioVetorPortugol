@@ -1,0 +1,27 @@
+programa
+{
+    funcao inicio()
+    {
+
+		cadeia nome[5]
+		
+		para(inteiro posicao = 0; posicao < 5; posicao++){
+			escreva("Entre com o ", posicao+1, "º nome \n")
+			leia(nome[posicao])
+			escreva("\n")
+		}
+
+		para (inteiro crescente = 0; crescente < 5; crescente++){
+			escreva("O nome na onder crescente é: ", nome[crescente], "\n")
+			escreva("\n")
+		}
+
+		para(inteiro decrescente = 4; decrescente > -1; decrescente--){
+			escreva("O nome da ordem decrescente é: ", nome[decrescente], "\n")
+			escreva("\n")
+		}
+
+
+        
+      }
+}
